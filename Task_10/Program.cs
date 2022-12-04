@@ -1,16 +1,26 @@
-﻿int [] array = {4, 5, 6};
+﻿int N = 456;
 
-Console.WriteLine (array [1]);
+int secondNumber = (N % 100) / 10;
+
+
+Console.Write(secondNumber);
+
 
 //Task 10-2
 
-  int [] array1 = {7, 8, 2};
+N = 782;
 
-Console.WriteLine (array1 [1]);
+secondNumber = (N % 100) / 10;
+
+Console.WriteLine();
+Console.Write(secondNumber);
 
 //Task 10-3
 
- int [] array2  = {9, 1, 8};
+N = 918;
 
-Console.WriteLine (array2 [1]);
+secondNumber = (N % 100) / 10;
+
+Console.WriteLine();
+Console.Write(secondNumber);
 
