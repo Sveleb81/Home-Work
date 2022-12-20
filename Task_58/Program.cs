@@ -30,6 +30,10 @@ for (int i = 0; i < n2; i++) {
     secondArr[i] = new double[m2];
 }
 
+if (n2 != m2) {
+    throw new Exception("Некорректная размерность матриц(см. 'правила умножения матриц')");
+}
+
 Console.WriteLine("Заполните вторую матрицу");
 for (int i = 0; i < m2; i++) {
     for (int j = 0; j < n2; j++) {
